@@ -1,0 +1,22 @@
+============================================================
+  LAPORAN AHP + UJI KONSISTENSI
+============================================================
+
+MATRIKS PERBANDINGAN BERPASANGAN
+  Transaksi vs Transaksi: 1.0000
+  Transaksi vs Engagement: 3.0000
+  Engagement vs Transaksi: 0.3333
+  Engagement vs Engagement: 1.0000
+
+BOBOT PRIORITAS (EIGEN VECTOR)
+  Transaksi: 0.7500 (75.0%)
+  Engagement: 0.2500 (25.0%)
+
+UJI KONSISTENSI
+  lambda_max=2.000000 | CI=0.000000 | RI=0.00 | CR=0.000000
+  Status: KONSISTEN
+
+PERBANDINGAN THRESHOLD
+  Q2 (Median)     : nilai=0.0655 | sukses=1128 (50.0%) | gagal=1128 (50.0%) | imbalance=0.0%
+  Q3              : nilai=0.3810 | sukses=566 (25.1%) | gagal=1690 (74.9%) | imbalance=49.8%
+  Mean            : nilai=0.1985 | sukses=676 (30.0%) | gagal=1580 (70.0%) | imbalance=40.1%
